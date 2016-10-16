@@ -21,8 +21,10 @@ function start(type){
 		});
 	}else if(type==='http'){
 		httpClient.start();
+	}else if(type==='httpClient'){
+		httpClient.startClient();
 	}
 }
 
-start('http');
+start('httpClient');
 
